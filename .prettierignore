@@ -1,0 +1,11 @@
+# Ignore artifacts:
+.cache
+build
+coverage
+node_modules
+public
+package-lock.json
+
+# Ignore etc.:
+*.md
+tsconfig.json
