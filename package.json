@@ -15,7 +15,7 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "lint": "eslint --ext .jsx,.js,.tsx,.ts, src/",
-    "format": "prettier --write src/**/*"
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\""
   },
   "dependencies": {
     "gatsby": "^4.9.3",
